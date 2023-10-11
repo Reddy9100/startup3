@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+.container-fluid{
+    background-color: rgb(55, 2, 105);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container{
+    margin: 40;
+    background-color:rgb(55, 2, 105);
+    width:1200px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+}
+.ul-container{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    color: white;
+    margin-right: 60px;
+}
+.head-nav{
+    margin-left: 60px;
+    color: white;
+    font-size: 20px;
+}
+.link1{
+    color: rgb(146, 142, 142);
+}
+.link2{
+    margin-left: 10px;
+}
+.link3{
+    margin-left: 10px;
+}
+.link4{
+    margin-left: 10px;
+}
+.link5{
+    margin-left: 10px;
+}
+.Purchase-btn{
+    color: white;
+    background-color: rgb(222, 26, 111);
+    border: none;
+    border-radius: 20px;
+}
+.description{
+    margin-left: 70px;
+    width: 450px;
+    margin-top: 100px;
+    color: white;
+}
+.head-desc{
+    font-size: 60px;
+}
+.Purchase-btn2{
+    width:150px;
+    background-color: rgb(222, 26, 111);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.para-desc{
+    font-weight: 600;
+    width: 300px;
+}
+.desc-form{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form{
+    background-color: white;
+    width:500px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.head-form{
+    color: rgb(31, 25, 55);
+}
+#mail{
+    width:300px;
+    border-radius: 20px;
+    margin-right: 500px;
+}
+.inner-form{
+    width: 300px;
+}
+.buttonsignIn{
+    width: 300px;
+    background-color:rgb(131, 24, 232);
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.line {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.or-line {
+    flex: 1;
+    margin: 0 10px;
+    border: 0.5px solid #000;
+}
+.twitter{
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(92, 92, 246);
+    color: white;
+}
+.account{
+    color: rgb(143, 138, 138);
+}
+.span-footer{
+    color: rgb(58, 239, 178);
+}
+
+#checkbox{
+    accent-color: aquamarine;
+}
+
